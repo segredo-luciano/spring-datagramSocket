@@ -1,0 +1,18 @@
+package com.timber.system.vos;
+
+import java.math.BigDecimal;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class BercoVO {
+	
+	private Integer id;
+	private BigDecimal peso;
+}
